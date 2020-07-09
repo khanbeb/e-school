@@ -28,9 +28,8 @@ nav img{
 }
 .web-header {
     background: linear-gradient(-45deg, #87e6cf, #f1a087, #f1eaab, #68c2e2);
-    background-image: 400% 400%;
     position: relative;
-    height: 500px;
+    height: 600px;
 }
 .color-p {
     color: #FD511A;
@@ -117,7 +116,15 @@ nav img{
 }
 .web-testimonial img {
     width: 120px;
+    height: 120px;
+    display: block;
+    margin: auto;
 }
+@media screen and (max-width: 992px) {
+    .web-testimonial section p {
+        text-align: center;
+    }
+ }
 
 .col-md-3 {
     flex: 0 0 25%;
